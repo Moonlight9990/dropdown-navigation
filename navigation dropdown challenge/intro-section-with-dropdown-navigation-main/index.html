@@ -1,0 +1,221 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="StyleSheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ 
+  <div id="wrapper">
+
+    <!-- the laptop navigation bar -->
+    <div id="nav">
+        <!-- the left side of the navigation bar -->
+      <div id="left-nav">
+          <!-- the logo of the left side in the navigation bar -->
+        <div class="logo">
+
+          <img src="./images/logo.svg" alt="logo" class="l.logo">
+
+        </div>
+          <!-- the text of the left side in the navigation bar -->
+        <div class="left-nav-text">
+          <ul>
+        <li class="features"> <a href="#"> Features
+           <img src="images/icon-arrow-up.svg" class="up">
+           <img src="images/icon-arrow-down.svg" class="down">
+        </a>
+      
+              <!-- features dropdwon -->
+            <ul class="features-dropdown">
+              <li> <p><img src="images/icon-todo.svg"> TODO LIST </p></li>
+              <li> <p> <img src="images/icon-calendar.svg"> CALENDAR</p></li>
+              <li> <p> <img src="images/icon-reminders.svg"> REMINDERS</p></li>
+              <li> <p> <img src="images/icon-planning.svg"> PLANNING</p></li>
+            </ul>
+  
+         </li>
+
+         <li class="company"> <a href="#"> Company 
+          <img src="images/icon-arrow-up.svg" class="up">
+          <img src="images/icon-arrow-down.svg" class="down">
+         </a>
+        
+             <!-- company dropdown -->
+            <ul class="company-dropdown">
+              <li> <p> History </p> </li>
+              <li> <p> Our Team </p></li>
+              <li> <p> Blog </p> </li>
+            </ul>
+
+        </li>
+
+         <li><a href="#"> Careers </a> </li>
+         <li><a href="#"> About </a> </li>
+        </ul>
+
+        </div>
+
+</div>
+
+    <!-- right side of the navigation bar -->
+
+    <div id="right-nav">
+  <a href="#"> Login </a>
+  <a href="#"> Register </a>
+
+    </div>
+
+</div> 
+  <!--  main body -->
+
+  <div id="section">
+    <!-- section left-->
+
+    <div id="section-text">
+      <!-- text of the section -->
+      <div class="text1">
+ <h1> Make remote work </h1> 
+
+  <p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+</p>
+
+  <button> Learn more </button>
+      </div>
+    <!-- client's images -->
+      <div class="down-images">
+
+        <img src="images/client-databiz.svg">
+        <img src="images/client-audiophile.svg">
+        <img src="images/client-meet.svg">
+        <img src="images/client-maker.svg">
+
+      </div>
+
+    </div>
+    <!-- image of the main section -->
+    <div id="section-image"> 
+
+      <img src="images/image-hero-desktop.png" alt="image-hero-desktop" class="hero-laptop-image">
+
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- mobile view max-width=700px -->
+<div id="wrapper2">
+  
+    <div class="nav1"> 
+
+      <div class="logo1">
+
+         <img src="images/logo.svg" alt="mobile-logo">
+
+      </div>
+ 
+      <div class="menu">
+
+          <img src="images/icon-menu.svg" alt="icon-menu">
+
+     <div class="menu-dropdown">
+
+      <img src="images/icon-close-menu.svg" alt="icon-close-menu" class="close-menu" href="./index.html">
+
+      <ul class="up-nav">
+
+    <li class="m-feature"><a href="#" > Features <img src="images/icon-arrow-down.svg" alt="mobile-arrow-down" class="down"> <img src="images/icon-arrow-up.svg" class="up" alt="mobile-arrow-up"> </a>
+
+        <ul class="mobile-feature-dropdown">
+
+          <li><a href="#"> <img src="images/icon-todo.svg"> Todo</a> </li>
+          <li><a href="#"> <img src="images/icon-calendar.svg"> Calendar</a> </li>
+          <li><a href="#"> <img src="images/icon-reminders.svg"> Reminder</a> </li>
+          <li><a href="#"> <img src="images/icon-planning.svg"> Planning</a> </li>
+
+        </ul>
+
+      </li>
+      
+    <li class="m-company"><a href="#" > Company <img src="images/icon-arrow-down.svg" alt="mobile-arrow-down" class="down"> <img src="images/icon-arrow-up.svg" class="up" alt="mobile-arrow-up"> </a>
+
+        <ul class="mobile-company-dropdown">
+
+         <li> <a href="#"> History</a> </li>
+         <li> <a href="#"> Our Team</a> </li>
+         <li> <a href="#"> Blog </a> </li>
+
+        </ul>
+
+    </li>
+
+   <a href="#"> Careers </a>
+    <a href="#"> About </a>
+
+        </ul>
+
+        <ul class="down- nav">
+    <li class="login"> <a href="#" >Login </a> </li>
+   <li class="register"> <a href="#" >Register</a> </li>
+
+        </ul>
+
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="section1">
+
+    <div class="main-mobile-image">
+
+      <img src="images/image-hero-mobile.png" class="m-image" alt="mobile-image">
+
+    </div>
+
+    <div class="mobile-section-text">
+
+      <div class="unknown">
+ <h1 class="mobile-h1"> Make remote work </h1>
+</div>
+
+    <div class="unknown">
+      <p class="mobile-p">Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+    </div>
+    
+    <div class="unknown">
+    <button class="button2">Learn more </button>
+    </div>
+
+</div>
+
+      <div class="client-m-image">
+        <img src="images/client-databiz.svg">
+        <img src="images/client-audiophile.svg">
+        <img src="images/client-meet.svg">
+        <img src="images/client-maker.svg">
+     </div>
+
+  </div>
+
+</div>
+  
+</body>
+</html>
